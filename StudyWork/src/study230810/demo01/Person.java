@@ -38,6 +38,7 @@ public class Person {
                 '}';
     }
 //重写equals() and hashCode()
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

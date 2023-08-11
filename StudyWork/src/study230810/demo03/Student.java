@@ -1,8 +1,8 @@
 package study230810.demo03;
 
-import study230810.demo01.Person;
 
-public class Student implements Comparable<Person> {//实现接口，泛型用Person
+
+public class Student{//实现接口，泛型用Person
     private int age;
     private String name;
 
@@ -38,8 +38,5 @@ public class Student implements Comparable<Person> {//实现接口，泛型用Pe
                 '}';
     }
 
-    @Override
-    public int compareTo(Person o) {
-        return this.getAge()-o.getAge();//重写compareTo方法,升序排序
-    }
+
 }
